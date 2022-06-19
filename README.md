@@ -51,7 +51,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Usage <a name = "usage"></a>
 
-Add notes about how to use the system.
+Project for study purpose can be used for to-do list.
 
 ## Features <a name = "features"></a>
 
