@@ -24,7 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them.
 
-On Windows, using Chocolatey
+On Windows, using Chocolatey.
 ```
 cinst nodejs
 # or for full install with npm
@@ -35,7 +35,7 @@ cinst nodejs.install
 
 A step by step series of examples that tell you how to get a development env running.
 
-First, install the dependencies used in the project
+First, install the dependencies used in the project.
 
 ```
 pnpm install
