@@ -1,0 +1,110 @@
+.mainContainer {
+  max-width: 46rem;
+  margin: 2rem auto;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mainContainer header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.criadasLabel {
+  color: var(--blue-500);
+}
+
+.concluidasLabel {
+  color: var(--purple-500);
+}
+
+.badged {
+  background-color: var(--gray-500);
+  font-size: 0.8rem;
+  color: var(--gray-200);
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.concluidasLabel span {
+  background-color: var(--gray-500);
+  color: var(--gray-200);
+  font-weight: bold;
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.mainContainer main {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--gray-400);
+}
+
+.mainContainer main ul {
+  list-style: none;
+}
+
+.emptyTodosContainer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.emptyTodosContainer img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.searchFieldContainer {
+  width: 46rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 90px;
+  gap: 0.5rem;
+  transform: translateY(-3.5rem);
+}
+
+.searchFieldContainer > input {
+  background-color: var(--gray-500);
+  height: 3.375rem;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+  color: var(--gray-200);
+}
+
+.searchFieldContainer > button {
+  background-color: var(--blue-600);
+  color: var(--white);
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  transition: background-color 0.2s;
+}
+
+.searchFieldContainer > button:hover {
+  background-color: var(--blue-500);
+}
+
+.searchFieldContainer > button svg {
+  height: 1.2rem;
+}
+
+.searchFieldContainer > button[type='submit']:disabled {
+  background-color: var(--gray-400);
+  color: var(--gray-300);
+  cursor: not-allowed;
+}

@@ -1,0 +1,46 @@
+.cardContainer {
+  width: 100%;
+  padding: 1.5rem;
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  margin-top: 2rem;
+}
+
+.cardContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cardContainer label {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.taskChecked {
+  text-decoration: line-through;
+  opacity: 0.5;
+  color: var(--gray-300);
+}
+
+.cardContainer p {
+  text-align: left;
+  color: var(--white);
+}
+
+.cardContainer svg {
+  color: var(--gray-300);
+}
+
+.cardContainer > button {
+  background: transparent;
+}

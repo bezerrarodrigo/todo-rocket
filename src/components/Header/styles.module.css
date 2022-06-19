@@ -1,0 +1,16 @@
+.headerContainer {
+  height: 12.5rem;
+  background-color: var(--gray-700);
+}
+
+.headerContent {
+  height: 100%;
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
